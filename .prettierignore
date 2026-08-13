@@ -1,0 +1,9 @@
+.expo
+coverage
+dist
+dist-nativewind-check
+dist-nativewind-check-2
+dist-ui-check
+dist-favicon-check
+node_modules
+package-lock.json

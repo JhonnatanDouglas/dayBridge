@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "daybridge-expo-scaffold-20260812",
-    "slug": "daybridge-expo-scaffold-20260812",
+    "name": "DayBridge",
+    "slug": "daybridge-jhonnatan",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "daybridgeexposcaffold20260812",
-    "userInterfaceStyle": "automatic",
+    "scheme": "daybridge",
+    "userInterfaceStyle": "light",
     "ios": {
       "icon": "./assets/expo.icon"
     },
@@ -21,6 +21,7 @@
     },
     "web": {
       "output": "static",
+      "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
@@ -28,15 +29,21 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
+          "backgroundColor": "#F4F7FB",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 76
         }
       ]
     ],
     "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    }
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "0263430a-49e2-41e5-8de1-1528bf81855e"
+      }
+    },
+    "owner": "jhonnatandev-team"
   }
 }

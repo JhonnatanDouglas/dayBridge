@@ -31,12 +31,23 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
+.env.*
+!.env.example
 .env*.local
 
 # typescript
 *.tsbuildinfo
 
 example
+
+# tests and local validation
+coverage/
+dist-nativewind-check/
+dist-nativewind-check-2/
+dist-ui-check/
+dist-favicon-check/
+.expo-web.*.log
 
 # generated native folders
 /ios
